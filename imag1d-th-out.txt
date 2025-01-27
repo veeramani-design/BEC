@@ -1,0 +1,26 @@
+ Number of Threads =          12
+ Imaginary time propagation 1d,   OPTION =   2
+
+  Number of Atoms N =      2000, Unit of length AHO =  0.00000100 m
+  Scattering length a =     74.10*a0
+  Nonlinearity G_3D =      98.5549029
+  Nonlinearity G_1D =      62.7419999
+  Parameter of trap: GAMMA =   1.00
+  Transverse trap parameter =  0.500
+
+ # Space Stp: NX =     8000
+  Space Step: DX =   0.002500
+ # Time Stp : NSTP =         1, NPAS =    200000, NRUN =     20000
+   Time Step:   DT =   0.000020
+
+                   -----------------------------------------------------
+                    Norm      Chem        Ener/N      <x>      |Psi(0)|^2
+                   -----------------------------------------------------
+Initial :          1.0000     0.50000     0.50000    0.70711    0.56419
+After NSTP iter.:  0.9990    25.51494    13.00747    0.70746    0.56372
+After NPAS iter.:  0.9996    10.36951     6.25698    2.04954    0.16489
+After NRUN iter.:  0.9996    10.36950     6.25698    2.04954    0.16489
+                   -----------------------------------------------------
+
+ Clock Time:    312 seconds
+   CPU Time:     96 seconds
